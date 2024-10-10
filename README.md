@@ -4,6 +4,7 @@ It tracks down the PIDs of the PIDs using your NVIDIA card.
 
 Great for squeezing out more battery life from a laptop who refuses to suspend the NVIDIA card.
 
+Most importantly, running this script does not cause for your card to activate if its alread in suspended mode, by avoiding lspci calls.
 
 ```bash
 #!/bin/bash
