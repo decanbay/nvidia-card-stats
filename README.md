@@ -7,6 +7,12 @@ Great for squeezing out more battery life from a laptop who refuses to suspend t
 
 Most importantly, running this script does not cause for your card to activate if its alread in suspended mode, by avoiding lspci calls.
 
+I recommend using this as
+
+```bash
+watch -n 0.1 sh nvidia-stats.sh
+```
+
 ```bash
 #!/bin/bash
 #auth: Deniz Canbay
